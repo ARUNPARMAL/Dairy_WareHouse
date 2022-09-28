@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.updatedsih">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon"
+
+        android:label="SIH PROJECT"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Updatedsih"
+        tools:targetApi="31">
+        <activity
+            android:name=".UserList"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Village_Data"
+            android:exported="false"
+            android:label="Villages" />
+        <activity
+            android:name=".District_Data"
+            android:exported="false"
+            android:label="Districts" />
+        <activity
+            android:name=".DatabaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Verifyotp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="Schemes" />
+        <activity
+            android:name=".PhoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".States_Data"
+            android:exported="false"
+            android:label="States" />
+        <activity
+            android:name=".DataView"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

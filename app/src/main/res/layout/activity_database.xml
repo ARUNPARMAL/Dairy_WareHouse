@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="scheme"/>
+
+            <EditText
+                android:id="@+id/scheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter scheme"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="village"/>
+
+            <EditText
+                android:id="@+id/village"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter village"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+
+                android:text="district"/>
+
+            <EditText
+                android:id="@+id/district"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter district"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+
+                android:text="state"/>
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter state"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+
+                android:text="assets"/>
+
+            <EditText
+                android:id="@+id/assets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter assets"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+
+                android:text="no.of assets"/>
+
+            <EditText
+                android:id="@+id/noofassets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter no. of assets"
+                android:inputType="number"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+
+                android:text="holder Userid"/>
+
+            <EditText
+                android:id="@+id/holderUserid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter holder Userid"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+
+                android:text="capital invested"/>
+
+            <EditText
+                android:id="@+id/capitalinvested"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter capital invested"
+                android:inputType="number"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+
+                android:text="latitude"/>
+
+            <EditText
+                android:id="@+id/latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter latitude"
+                android:editable="false"
+                android:inputType="numberDecimal"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:editable="false"
+                android:text="longitude"/>
+
+            <EditText
+                android:id="@+id/longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter longitude"
+                android:inputType="numberDecimal"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Milk Produced/Processed"/>
+
+            <EditText
+                android:id="@+id/milkproduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter Milk amount"
+                android:inputType="number"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Farmers Associated"/>
+
+            <EditText
+                android:id="@+id/farmersassociated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enter Farmers Associated"
+                android:inputType="numberDecimal"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/findgc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find GeoCordinates"
+            />
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

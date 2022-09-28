@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "890802961680",
+    "project_id": "sih2022-65b99",
+    "storage_bucket": "sih2022-65b99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890802961680:android:a258f9c609f8ed4c4ff995",
+        "android_client_info": {
+          "package_name": "com.example.updatedsih"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890802961680-865ebl2g6djspunpgnm0d7landjlrptl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqqfVyZ56TsT9Ssk97CEbCokzcEcauiuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890802961680-865ebl2g6djspunpgnm0d7landjlrptl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

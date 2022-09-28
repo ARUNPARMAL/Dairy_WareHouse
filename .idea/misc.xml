@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ARUN WORK/Android Projects/rustycoders_28690_11/app/src/main/res/layout/activity_main.xml" value="0.26979166666666665" />
+        <entry key="..\:/ARUN WORK/Android Projects/rustycoders_28690_11/app/src/main/res/layout/scheme_layout_file.xml" value="0.25833333333333336" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/drawable/buttonbg.xml" value="0.184" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/drawable/custom_appbar_layout.xml" value="0.189" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/drawable/edittextbg.xml" value="0.184" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/drawable/floating_a_b.xml" value="0.189" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/drawable/ic_baseline_not_listed_location_24.xml" value="0.189" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/drawable/upper_round_corners.xml" value="0.189" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_data_view.xml" value="0.115625" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_database.xml" value="0.2545289855072464" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_district_data.xml" value="0.25833333333333336" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_filter_page.xml" value="0.25833333333333336" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_list_data.xml" value="0.25833333333333336" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_login.xml" value="0.12563323201621074" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_main.xml" value="0.2545289855072464" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_main3.xml" value="0.25833333333333336" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_phone.xml" value="0.2545289855072464" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_register.xml" value="0.12563323201621074" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_splash.xml" value="0.2545289855072464" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_user_list.xml" value="0.25833333333333336" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_verifyotp.xml" value="0.2545289855072464" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/activity_village_data.xml" value="0.25833333333333336" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/district_layout_file.xml" value="0.25833333333333336" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/nestedscrollview_layout.xml" value="0.25833333333333336" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/scheme_layout_file.xml" value="0.2658514492753623" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/state_layout_file.xml" value="0.25833333333333336" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/states_data.xml" value="0.25833333333333336" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/layout/userlist_layout_file.xml" value="0.21196581196581196" />
+        <entry key="..\:/ARUN WORK/Android Projects/updatedsih/app/src/main/res/menu/navigation_menu.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Arun/Downloads/updatedsih/app/src/main/res/drawable/custom_appbar_layout.xml" value="0.184" />
+        <entry key="..\:/Users/Arun/Downloads/updatedsih/app/src/main/res/layout/activity_data_view.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Arun/Downloads/updatedsih/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Arun/Downloads/updatedsih/app/src/main/res/layout/activity_main3.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Arun/Downloads/updatedsih/app/src/main/res/layout/marker_view_bubble.xml" value="0.2545289855072464" />
+        <entry key="..\:/Users/klu/Desktop/14 33/updatedsih/app/src/main/res/layout/activity_data_view.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/klu/Desktop/14 33/updatedsih/app/src/main/res/layout/activity_database.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/klu/Desktop/14 33/updatedsih/app/src/main/res/layout/activity_district_data.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/klu/Desktop/14 33/updatedsih/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/klu/Desktop/14 33/updatedsih/app/src/main/res/layout/activity_village_data.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/klu/Desktop/14 33/updatedsih/app/src/main/res/layout/scheme_layout_file.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/klu/Desktop/14 33/updatedsih/app/src/main/res/layout/state_layout_file.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/klu/Desktop/14 33/updatedsih/app/src/main/res/layout/states_data.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/klu/Desktop/rustycoders_28690_11/app/src/main/res/layout/activity_filter_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/finalsih/morning finale/updatedsih/app/src/main/res/layout/activity_database.xml" value="0.17552083333333332" />
+        <entry key="..\:/finalsih/morning finale/updatedsih/app/src/main/res/layout/activity_user_list.xml" value="0.17282051282051283" />
+        <entry key="..\:/finalsih/morning finale/updatedsih/app/src/main/res/layout/userlist_layout_file.xml" value="0.17552083333333332" />
+        <entry key="..\:/updatedsih/app/src/main/res/drawable/round_back_dark_blue5_15.xml" value="0.1" />
+        <entry key="..\:/updatedsih/app/src/main/res/drawable/round_back_primary_15.xml" value="0.1" />
+        <entry key="..\:/updatedsih/app/src/main/res/layout/activity_login.xml" value="0.25833333333333336" />
+        <entry key="..\:/updatedsih/app/src/main/res/layout/activity_phone.xml" value="0.25833333333333336" />
+        <entry key="..\:/updatedsih/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/updatedsih/app/src/main/res/layout/state_layout_file.xml" value="0.25833333333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

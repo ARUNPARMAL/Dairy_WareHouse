@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="500dp"
+    app:cardCornerRadius="18dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Blue"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Blue"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="User ID:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/userid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Name of Assets:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/assetsname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="No. of Assets:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/assetsnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Capital Invested:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/capital_invested"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Village:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/village"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="District:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/district"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="State:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Scheme:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/scheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="No. of Farmers:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/farmers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Latitude:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/latitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Longitude:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/longitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Production of milk:"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/milk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

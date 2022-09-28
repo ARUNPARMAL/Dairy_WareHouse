@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+            <androidx.cardview.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/scheme_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="8dp"
+                android:padding="10dp"
+                app:cardElevation="12dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginStart="17dp"
+            android:id="@+id/index"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/t_schemename"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="Animal Husbandary Infrastructure Development Scheme"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="end|bottom"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/infoimg" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/t_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:paddingLeft="12dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        android:justificationMode="inter_word"
+        android:text="description"
+        android:textSize="16dp"
+        />
+    </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
